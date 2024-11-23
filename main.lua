@@ -79,6 +79,7 @@ function main:Begin(PROPS)
     Window.Position = UDim2.new(0.283211678, 0, 0.155285195, 0)
     Window.Selectable = true
     Window.Size = UDim2.new(0, MenuOptions.Width, 0, MenuOptions.Height)
+    Window.Draggable = true
 
     WindowCorner.CornerRadius = UDim.new(0, 9)
     WindowCorner.Name = "WindowCorner"
